@@ -313,7 +313,7 @@ def run_experiments():
     print("boar_strategy win rate:", average_win_rate(boar_strategy))
     print("sus_strategy win rate:", average_win_rate(sus_strategy))
     print("final_strategy win rate:", average_win_rate(final_strategy))
-    print("ChatGPT_strategy win rate:", average_win_rate(gpt_strategy))
+    # print("ChatGPT_strategy win rate:", average_win_rate(gpt_strategy))
     "*** You may add additional experiments as you wish ***"
 
 
@@ -369,9 +369,10 @@ def final_strategy(
         else:
             best_roll = score_to_win // 2
     else:
-        best_roll, expect_point = max_scoring_num_rolls(
-            dice=dice, times_called=simulation_times, return_point=True
-        )
+        # best_roll, expect_point = max_scoring_num_rolls(
+        #     dice=dice, times_called=simulation_times, return_point=True
+        # )
+        best_roll, expect_point = 6, 18
         if sus_update(0, score, opponent_score, dice) - score >= expect_point:
             best_roll = 0
 
@@ -402,7 +403,7 @@ def gpt_strategy(score, opponent_score, dice=six_sided, goal=GOAL):
     # Otherwise, calculate the optimal number of dice to roll based on simulations
     best_roll, expect_point = max_scoring_num_rolls(
         dice=dice, times_called=100, return_point=True
-    )..
+    )
 
     # If boar brawl yields more points than expected rolls, use it
     if sus_update(0, score, opponent_score, dice) > expect_point:
