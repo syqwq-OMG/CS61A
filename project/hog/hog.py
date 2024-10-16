@@ -258,7 +258,7 @@ def make_averaged(original_function, times_called=1000):
     # END PROBLEM 8
 
 
-def max_scoring_num_rolls(dice=six_sided, times_called=1000):
+def max_scoring_num_rolls(dice=six_sided, times_called=1000, return_point=False):
     """Return the number of dice (1 to 10) that gives the maximum average score for a turn.
     Assume that the dice always return positive outcomes.
 
@@ -273,7 +273,10 @@ def max_scoring_num_rolls(dice=six_sided, times_called=1000):
         current_point = make_averaged(roll_dice, times_called)(num_rolls, dice)
         if current_point > max_point:
             max_point, max_idx = current_point, num_rolls
-    return max_idx
+    if return_point:
+        return max_idx, max_point
+    else:
+        return max_idx
 
     # END PROBLEM 9
 
@@ -310,6 +313,7 @@ def run_experiments():
     print("boar_strategy win rate:", average_win_rate(boar_strategy))
     print("sus_strategy win rate:", average_win_rate(sus_strategy))
     print("final_strategy win rate:", average_win_rate(final_strategy))
+    print("ChatGPT_strategy win rate:", average_win_rate(gpt_strategy))
     "*** You may add additional experiments as you wish ***"
 
 
@@ -327,18 +331,84 @@ def boar_strategy(score, opponent_score, threshold=11, num_rolls=6):
 def sus_strategy(score, opponent_score, threshold=11, num_rolls=6):
     """This strategy returns 0 dice when your score would increase by at least threshold."""
     # BEGIN PROBLEM 11
+    if sus_update(0, score, opponent_score) - score >= threshold:
+        return 0
     return num_rolls  # Remove this line once implemented.
     # END PROBLEM 11
 
 
-def final_strategy(score, opponent_score):
-    """Write a brief description of your final strategy.
+def final_strategy(
+    score,
+    opponent_score,
+    dice=six_sided,
+    simulation_times=100,
+    goal=GOAL,
+    conservative_threshold=20,
+):
+    """
+    when player score is close to goal enough to reach the threshold
+    we'll use conservative stragy when tend to use boar_brawl. otherwise,
+    we'll do some simulation and then compare the 1-10 roll with boar brawl
+    and choose the better
 
-    *** YOUR DESCRIPTION HERE ***
+    score: player's score
+    oppenent_score: opponent's score
+    dice: dice type, default six-sided
+    simulation_times: times to calculate average possible points that will get from the supposed roll time, default 1000
+    goal: the winning score
+    conservative_threshold: when(the diverge between score and goal) to reduce dicing and tend more to boar_brawl rule, default 10
     """
     # BEGIN PROBLEM 12
-    return 6  # Remove this line once implemented.
+    if score >= goal - conservative_threshold:
+        if (
+            sus_update(0, score, opponent_score, dice) - score
+            >= (score_to_win := goal - score) / 2
+            # >= (score_to_win := 2) / 2
+        ):
+            best_roll = 0
+        else:
+            best_roll = score_to_win // 2
+    else:
+        best_roll, expect_point = max_scoring_num_rolls(
+            dice=dice, times_called=simulation_times, return_point=True
+        )
+        if sus_update(0, score, opponent_score, dice) - score >= expect_point:
+            best_roll = 0
+
+    return best_roll  # Remove this line once implemented.
     # END PROBLEM 12
+
+
+def gpt_strategy(score, opponent_score, dice=six_sided, goal=GOAL):
+    """
+    A strategy that balances aggressive and conservative approaches based on the player's score.
+    """
+    conservative_threshold = 10  # When the player's score is within 10 points of winning, play conservatively.
+    large_deficit_threshold = 20  # When trailing by 20 or more points, take more risks.
+
+    # If you're within 10 points of winning, play conservatively
+    if score >= goal - conservative_threshold:
+        if sus_update(0, score, opponent_score, dice) >= goal - score:
+            return 0  # Use boar brawl if it can get you closer to the goal safely
+        else:
+            return 1  # Roll just 1 die to avoid risk
+
+    # If you're trailing by 20 points or more, take more risks
+    if score < opponent_score - large_deficit_threshold:
+        return max_scoring_num_rolls(
+            dice, times_called=100
+        )  # Aggressive play, more dice rolls
+
+    # Otherwise, calculate the optimal number of dice to roll based on simulations
+    best_roll, expect_point = max_scoring_num_rolls(
+        dice=dice, times_called=100, return_point=True
+    )..
+
+    # If boar brawl yields more points than expected rolls, use it
+    if sus_update(0, score, opponent_score, dice) > expect_point:
+        return 0
+
+    return best_roll  # Return the best number of rolls based on simulation
 
 
 ##########################

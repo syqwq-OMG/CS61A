@@ -9,6 +9,9 @@
   1. finish hw02 :) the last function was interesting OVO
 - **Oct. 15th 2024**
   1. do *Hog* project till Problem 11 which require implementing `sus_strategy` (really interesting proj AwA)
+- **Oct. 16th 2024**
+  1. finish *Hog* project, but final strategy is not wise as expected : (
+
 
 ## Websites related
 - https://composingprograms.netlify.app/
