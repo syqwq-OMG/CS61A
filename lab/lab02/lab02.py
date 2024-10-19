@@ -1,4 +1,3 @@
-
 def composite_identity(f, g):
     """
     Return a function with one parameter x that returns True if f(g(x)) is
@@ -14,6 +13,7 @@ def composite_identity(f, g):
     False
     """
     "*** YOUR CODE HERE ***"
+    return lambda x: f(g(x)) == g(f(x))
 
 
 def sum_digits(y):
@@ -22,6 +22,7 @@ def sum_digits(y):
     while y > 0:
         total, y = total + y % 10, y // 10
     return total
+
 
 def is_prime(n):
     """Return whether positive integer n is prime."""
@@ -33,6 +34,7 @@ def is_prime(n):
             return False
         k += 1
     return True
+
 
 def count_cond(condition):
     """Returns a function with one parameter N that counts all the numbers from
@@ -61,6 +63,15 @@ def count_cond(condition):
     """
     "*** YOUR CODE HERE ***"
 
+    def foo(n):
+        cnt = 0
+        for i in range(1, n + 1):
+            if condition(n, i):
+                cnt += 1
+        return cnt
+
+    return foo
+
 
 def multiple(a, b):
     """Return the smallest number n that is a multiple of both a and b.
@@ -71,7 +82,10 @@ def multiple(a, b):
     42
     """
     "*** YOUR CODE HERE ***"
-
+    for i in range(min(a, b), 0, -1):
+        if a % i == 0 and b % i == 0:
+            return a * b // i
+    return -1
 
 
 def cycle(f1, f2, f3):
@@ -102,3 +116,32 @@ def cycle(f1, f2, f3):
     """
     "*** YOUR CODE HERE ***"
 
+    def nest_i(i, f):
+        if i == 1:
+
+            def foo(x):
+                return f1(f(x))
+
+            return foo
+        elif i == 2:
+
+            def foo(x):
+                return f2(f(x))
+
+            return foo
+        else:
+
+            def foo(x):
+                return f3(f(x))
+
+            return foo
+
+    def ret(n):
+        def g(x):
+            return x
+
+        for i in range(1, n + 1):
+            g = nest_i(i % 3, g)
+        return g
+
+    return ret

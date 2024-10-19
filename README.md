@@ -11,6 +11,8 @@
   1. do *Hog* project till Problem 11 which require implementing `sus_strategy` (really interesting proj AwA)
 - **Oct. 16th 2024**
   1. finish *Hog* project, but final strategy is not wise as expected : (
+- **Oct. 20th 2024**
+  1. finish lab002 the last implement of the funtion of which is a thrilling experience for me cuz i coded it correctly once OMG 😱😱😱😱😱😱
 
 
 ## Websites related
