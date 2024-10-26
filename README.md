@@ -13,7 +13,8 @@
   1. finish *Hog* project, but final strategy is not wise as expected : (
 - **Oct. 20th 2024**
   1. finish lab002 the last implement of the funtion of which is a thrilling experience for me cuz i coded it correctly once OMG 😱😱😱😱😱😱
-
+- **Oct. 26th 2024**
+  1. finish hw03(on recursive) the last optional question of which is kinda terribly disgusting 🤢🤢🤢🤢🤢
 
 ## Websites related
 - https://composingprograms.netlify.app/
