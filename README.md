@@ -15,6 +15,10 @@
   1. finish lab002 the last implement of the funtion of which is a thrilling experience for me cuz i coded it correctly once OMG 😱😱😱😱😱😱
 - **Oct. 26th 2024**
   1. finish hw03(on recursive) the last optional question of which is kinda terribly disgusting 🤢🤢🤢🤢🤢
+- **Oct. 28th 2024**
+  1. finish lab03
+- **Oct. 29th 2024**
+  1. *cats* project finish problem 1-6 🥺🥺🥺🥺🥺
 
 ## Websites related
 - https://composingprograms.netlify.app/
