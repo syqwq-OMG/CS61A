@@ -1,0 +1,520 @@
+The
+	No change: (the -> the)
+	No change: (They -> They)
+	Correct: (Thr -> The)
+
+Locke
+	Correct: (locke -> Locke)
+
+Mary,
+	Correct: (Mart, -> Mary,)
+
+then.
+	Correct: (ethen. -> then.)
+
+influential
+	Correct: (influcential -> influential)
+
+coauthors
+	Correct: (coatyuores -> coauthors)
+
+later,
+	Correct: (latee, -> later,)
+
+number-crunch
+	Incorrect: (number -> her)
+
+well-researched
+	No change: (e''-wrreachered -> e''-wrreachered)
+
+rebelling,
+	Correct: (rebelling. -> rebelling,)
+	Correct: (revelling, -> rebelling,)
+
+based
+	Correct: (base -> based)
+
+words
+	No change: (works -> works)
+	Incorrect: (worksdd -> worked)
+
+lives.
+	Correct: (leives. -> lives.)
+
+super-scale
+	Correct: (uspercaaler- -> super-scale)
+
+influenced
+	Correct: (influences -> influenced)
+	Correct: (infkuenced -> influenced)
+
+thought
+	Correct: (thiught -> thought)
+
+ideas
+	Correct: (ideds -> ideas)
+	Correct: (dideas -> ideas)
+	Correct: (idea -> ideas)
+
+signed
+	Correct: (sifned -> signed)
+
+Everyone
+	Correct: (everyone -> Everyone)
+
+First,
+	Correct: (firstc -> First,)
+
+fixed
+	Correct: (fixd -> fixed)
+
+comment.
+	Correct: (comment -> comment.)
+
+her
+	Correct: (sher -> her)
+
+male
+	No change: (make -> make)
+
+Gebru.
+	Incorrect: (gebry, -> Gebru,)
+	Correct: (benbtreu. -> Gebru.)
+
+thinkers
+	Correct: (thinkess -> thinkers)
+
+Fifth
+	Correct: (Fuffrh -> Fifth)
+
+belief
+	Correct: (bleif -> belief)
+	Correct: (bekeuf -> belief)
+
+queries.
+	Correct: (quesries. -> queries.)
+
+DM
+	Correct: (dm -> DM)
+
+better
+	Correct: (beteer -> better)
+
+happens,
+	Correct: (jaepns, -> happens,)
+
+daughter
+	Correct: (daugher -> daughter)
+
+to
+	Correct: (tio -> to)
+	Correct: (ti -> to)
+	Incorrect: (wayto -> want)
+	Correct: (ro -> to)
+	Correct: (tot -> to)
+	Correct: (o -> to)
+	Correct: (eo -> to)
+	Incorrect: (ron -> on)
+	Correct: (tk -> to)
+	Correct: (ot -> to)
+	Correct: (fo -> to)
+
+colonists’
+	Correct: (colonisys' -> colonists’)
+	Incorrect: (colonist' -> colonists)
+	Correct: (colonsits' -> colonists’)
+
+God
+	Correct: (Fod -> God)
+
+head
+	Incorrect: (hear -> her)
+
+special
+	Incorrect: (l -> a)
+
+Compact,
+	Correct: (compact, -> Compact,)
+
+women
+	Correct: (wome -> women)
+
+should
+	Correct: (sould -> should)
+	Incorrect: (shiod -> said)
+
+acquired,
+	Correct: (ascuqiewred, -> acquired,)
+	Correct: (acquiredc -> acquired,)
+
+advances
+	Correct: (ascvadas -> advances)
+
+possessed
+	Correct: (posessed -> possessed)
+
+a
+	Correct: (s -> a)
+	No change: (the -> the)
+	Correct: (aa -> a)
+	Incorrect: (t -> to)
+	Incorrect: (ta -> to)
+
+Stuart
+	Correct: (Stuary -> Stuart)
+
+aura
+	Incorrect: (AURA -> AI,)
+
+new
+	Incorrect: (bee -> been)
+
+Models
+	Correct: (moderls -> Models)
+
+breakthrough
+	No change: (baorrjgtoigulk -> baorrjgtoigulk)
+	Correct: (breakthorugh -> breakthrough)
+
+Emily
+	Correct: (emily -> Emily)
+
+accuracy
+	Correct: (acuracy -> accuracy)
+
+God,
+	Correct: (Fos, -> God,)
+	Correct: (god, -> God,)
+
+vision
+	Correct: (viosn -> vision)
+
+catalyzed
+	No change: (ATALYZED -> ATALYZED)
+
+Plymouth
+	Correct: (pltmouth -> Plymouth)
+
+others,
+	Correct: (other,s -> others,)
+
+exit
+	Incorrect: (EXIT -> I)
+
+friend,
+	Correct: (frine, -> friend,)
+
+had
+	Incorrect: (ha -> a)
+	No change: (was -> was)
+
+heavily
+	Correct: (hesvily -> heavily)
+
+those
+	Correct: (thos -> those)
+	Correct: (rhose -> those)
+
+created
+	Incorrect: (gread -> head)
+	Correct: (crssted -> created)
+	Correct: (gcreated -> created)
+
+purpose
+	Correct: (oirpsoe -> purpose)
+
+harmed,
+	Correct: (hardmed, -> harmed,)
+
+instructing
+	Correct: (instgrucitnin -> instructing)
+
+Microsoft
+	Correct: (mivrosogy -> Microsoft)
+
+barons
+	Correct: (barens -> barons)
+
+Upon
+	Correct: (uppkn -> Upon)
+
+lays
+	Correct: (kays -> lays)
+
+protection
+	Correct: (protecion -> protection)
+	Correct: (prorscriin -> protection)
+
+beliefs
+	Incorrect: (believes -> believed)
+
+touch-sensitive
+	Correct: (touch-sensititve -> touch-sensitive)
+
+engine
+	Correct: (engline -> engine)
+
+Carta’s
+	Correct: (Cart'as -> Carta’s)
+	Correct: (Xarta's -> Carta’s)
+	Correct: (Carta's -> Carta’s)
+
+paper
+	Incorrect: (PAPER -> CEO)
+
+“There’s
+	Correct: ("there's -> “There’s)
+
+part
+	Correct: (psrr -> part)
+
+judgments.
+	Correct: (judgements. -> judgments.)
+
+communicate.
+	Incorrect: (comnturecea. -> contract.)
+
+monarch
+	Correct: (emonarxh -> monarch)
+
+I
+	Incorrect: (i -> a)
+	Incorrect: (si -> so)
+
+community
+	Correct: (ocmunntiy -> community)
+
+enabled
+	Correct: (aenvaled -> enabled)
+
+suggested
+	Correct: (suggesterd -> suggested)
+
+liberty,
+	Correct: (liery, -> liberty,)
+	Correct: (livertt, -> liberty,)
+	Incorrect: (liber, -> later,)
+	Incorrect: (lity, -> life,)
+	Correct: (liverty, -> liberty,)
+	Correct: (livery, -> liberty,)
+
+humans
+	Correct: (humand -> humans)
+
+however,
+	Correct: (jiwever, -> however,)
+	Correct: (howver, -> however,)
+	Correct: (howeever, -> however,)
+	Correct: (howeve, -> however,)
+	Correct: (howefer, -> however,)
+
+Jobs'
+	Correct: (jobs' -> Jobs')
+
+Revolution,
+	Correct: (recolutin, -> Revolution,)
+	Correct: (REvolution, -> Revolution,)
+
+castigated
+	Correct: (castigaesbg -> castigated)
+
+understand
+	Correct: (undrestand -> understand)
+	Correct: (dundresatna -> understand)
+
+plane
+	Correct: (panse -> plane)
+
+Constitution
+	Correct: (constitiion -> Constitution)
+
+Revolution
+	Correct: (Rdcolutij -> Revolution)
+	Incorrect: (Revuitlions -> Revolution,)
+
+operate
+	Correct: (operation -> operate)
+
+Bill
+	Correct: (bill -> Bill)
+
+liberties
+	Correct: (liverties -> liberties)
+	Incorrect: (liverts -> liberty)
+	Incorrect: (livetirss -> lives.)
+
+document,
+	Correct: (document -> document,)
+
+speech,
+	Correct: (speed, -> speech,)
+
+Locke’s
+	Correct: (Locket's -> Locke’s)
+	Correct: (Locke's -> Locke’s)
+
+taking—might
+	Correct: (takikng-might -> taking—might)
+	Correct: (takeing-might -> taking—might)
+
+kings
+	Incorrect: (kind -> king)
+
+couldn’t
+	Correct: (couldn't -> couldn’t)
+	Correct: (coultn' -> couldn’t)
+
+became
+	Correct: (becoma -> became)
+	Correct: (baecase -> became)
+	Correct: (ecame -> became)
+
+longer
+	Correct: (lnger -> longer)
+
+once
+	No change: (one -> one)
+
+Dean’s
+	Incorrect: (deadn' -> head)
+
+Big?”
+	Incorrect: (ibg? -> kings)
+
+intervene
+	Correct: (intervinee -> intervene)
+
+gave
+	Correct: (gABE -> gave)
+
+Washington
+	Correct: (washington -> Washington)
+
+order
+	Incorrect: (oftede -> Steve)
+
+One
+	No change: (one -> one)
+
+communication.
+	Correct: (mcouumnications. -> communication.)
+
+Steve
+	Correct: (Stave -> Steve)
+
+created.
+	Correct: (crates. -> created.)
+
+autocorrecting
+	No change: (autocutroireign -> autocutroireign)
+	Correct: (autovterecitn -> autocorrecting)
+
+codename
+	Correct: (codenam -> codename)
+
+smartphone
+	Correct: (msartsaophone -> smartphone)
+	Correct: (somratphon -> smartphone)
+	Correct: (smartspohn -> smartphone)
+	Correct: (theamrtphone -> smartphone)
+
+Oren
+	Incorrect: (orenetix -> tenet)
+
+“It
+	Incorrect: ("it -> it)
+
+improving
+	Correct: (imporivng -> improving)
+
+from
+	No change: (form -> form)
+
+“No
+	Correct: ("No -> “No)
+
+Google
+	Correct: (goodle -> Google)
+	Correct: (avgoodle -> Google)
+	Correct: (foodlwe -> Google)
+	Correct: (GOoge -> Google)
+	Correct: (googe -> Google)
+
+field—some
+	No change: (feilfs--somenow -> feilfs--somenow)
+
+contributions
+	Correct: (contrivuiton -> contributions)
+	Correct: (contributon -> contributions)
+
+settlers
+	Correct: (Settlers -> settlers)
+
+now
+	No change: (deployed -> deployed)
+	Correct: (wnow -> now)
+
+early
+	Correct: (araluy -> early)
+
+regard
+	Correct: (refsrd -> regard)
+
+Rights,
+	Correct: (eights, -> Rights,)
+
+explicitly
+	Correct: (explciroy -> explicitly)
+
+but
+	No change: (not -> not)
+	Correct: (abut -> but)
+	No change: (But -> But)
+	Correct: (bur -> but)
+
+worked
+	Correct: (towkrd -> worked)
+
+did
+	Correct: (didno -> did)
+
+another.
+	Correct: (antoher. -> another.)
+	Correct: (anothe. -> another.)
+
+(The
+	Correct: ((the -> (The)
+
+important
+	Correct: (importnta -> important)
+	Correct: (ikpoersnt -> important)
+	Correct: (impoetsnt -> important)
+	Correct: (importsnt -> important)
+
+emerge
+	Correct: (nemenryb -> emerge)
+
+role
+	Correct: (roles -> role)
+
+controversy
+	Correct: (controberisy -> controversy)
+
+skunk
+	Correct: (skk -> skunk)
+
+property
+	Correct: (propert -> property)
+
+could
+	Incorrect: (coiks -> works)
+	Correct: (coikd -> could)
+	Correct: (coul -> could)
+
+version
+	Correct: (verison -> version)
+
+Correction Speed: 295.8559905075502 wpm
+Correctly Corrected: 172 words
+Incorrectly Corrected: 33 words
+Uncorrected: 17 words
