@@ -140,9 +140,8 @@ def memo(f):
     cache = {}
 
     def memoized(*args):
-        immutable_args = deep_convert_to_tuple(
-            args
-        )  # convert *args into a tuple representation
+        # convert *args into a tuple representation
+        immutable_args = deep_convert_to_tuple(args)
         if immutable_args not in cache:
             result = f(*immutable_args)
             cache[immutable_args] = result
@@ -158,7 +157,18 @@ def memo_diff(diff_function):
 
     def memoized(typed, source, limit):
         # BEGIN PROBLEM EC
-        "*** YOUR CODE HERE ***"
+        cond = (typed, source)
+        if cond in cache:
+            cached_value, cached_limit = cache[cond]
+            # Return the cached value if the current limit is less than or equal to the cached limit
+            if limit <= cached_limit:
+                return cached_value
+
+        result = diff_function(typed, source, limit)
+
+        cache[cond] = (result, limit)
+
+        return result
         # END PROBLEM EC
 
     return memoized
@@ -169,6 +179,7 @@ def memo_diff(diff_function):
 ###########
 
 
+@memo
 def autocorrect(typed_word, word_list, diff_function, limit):
     """Returns the element of WORD_LIST that has the smallest difference
     from TYPED_WORD based on DIFF_FUNCTION. If multiple words are tied for the smallest difference,
@@ -241,6 +252,7 @@ def furry_fixes(typed, source, limit):
     # END PROBLEM 6
 
 
+@memo_diff
 def minimum_mewtations(typed, source, limit):
     """A diff function for autocorrect that computes the edit distance from TYPED to SOURCE.
     This function takes in a string TYPED, a string SOURCE, and a number LIMIT.
@@ -259,35 +271,34 @@ def minimum_mewtations(typed, source, limit):
     3
     """
     # assert False, "Remove this line"
-    INF = 0x7FFFFFFFFF
-    if min(len(typed), len(source)) == 0:
-        max_len = max(len(typed), len(source))
-        return max_len if max_len <= limit else INF
 
-    if limit < 0:
+    INF = float("inf")
+    if limit <= 0:
         return INF
 
-    # Base cases should go here, you may add more base cases as needed.
-    if typed == source:
-        # BEGIN
-        "*** YOUR CODE HERE ***"
-        return 0
-        # END
+    lt, ls = len(typed), len(source)
 
-    # Recursive cases should go below here
-    if typed[0] == source[0]:  # Feel free to remove or add additional cases
-        # BEGIN
-        "*** YOUR CODE HERE ***"
+    min_len = min(lt, ls)
+    if min_len == 0:
+        max_len = max(lt, ls)
+        return max_len if max_len <= limit else INF
+
+    if abs(ls - lt) > limit:
+        return INF
+
+    if typed[:min_len] == source[:min_len]:
+        return abs(ls - lt)
+
+    if typed == source:
+        return 0
+
+    if typed[0] == source[0]:
         return minimum_mewtations(typed[1:], source[1:], limit)
-        # END
     else:
-        add = minimum_mewtations(source[0] + typed, source, limit - 1)
+        add = minimum_mewtations(typed, source[1:], limit - 1)
         remove = minimum_mewtations(typed[1:], source, limit - 1)
-        substitute = minimum_mewtations(source[0] + typed[1:], source, limit - 1)
-        # BEGIN
-        "*** YOUR CODE HERE ***"
+        substitute = minimum_mewtations(typed[1:], source[1:], limit - 1)
         return min(add, remove, substitute) + 1
-        # END
 
 
 # Ignore the line below

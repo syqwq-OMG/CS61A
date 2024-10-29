@@ -19,8 +19,17 @@
   1. finish [lab03](./lab/lab03/lab03.py)
 - **Oct. 29th 2024**
   > BTW, use `python3 score.py > correction.txt &` to check performance of `final_diff` in the [cats.py](./project/cats/cats.py)
-  1. [*cats*](./project/cats/cats.py) project finish basic problems 🥺🥺🥺🥺🥺
-  2. modify maybe the `final_diff` function
+  1. [*cats*](./project/cats/cats.py) project finish all problems 🥺🥺🥺🥺🥺
+  2. **[TODO]** maybe modify the `final_diff` function
+  3. **[TODO]** figure out why
+    > If memoized encounters the (typed, source) pair again, it should return the memoized value if the provided limit is less than or equal to the cached limit. Otherwise, the difference should be recalculated, recached, and returned.
+
+    understand `memo_diff()` why is
+    ``` py
+    if limit <= cached_limit:
+        return cached_value
+    ```
+
 
 ## Websites related
 - https://composingprograms.netlify.app/
