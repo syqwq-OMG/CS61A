@@ -35,6 +35,7 @@
     very important light on code construction
   2. finish [hw04](./hw/hw04/hw04.py) exciting and felt benefited a lot from previous oi experience 😋
       this really is a nice course, and i plan to read the implementation of tree in python in this source code given
+  3. finish [lab05](./lab/lab05/lab05.py) tree abstraction code [here](./lab/lab05/tree.py)
 
 ## Websites related
 - https://composingprograms.netlify.app/
