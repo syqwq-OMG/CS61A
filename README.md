@@ -29,6 +29,10 @@
     if limit <= cached_limit:
         return cached_value
     ```
+- **Oct. 31th 2024**
+  1. finish lab04 where i learnt:
+    > The nature of the abstraction barrier guarantees that changing the implementation of an data abstraction shouldn't affect the functionality of any programs that use that data abstraction, as long as the constructors and selectors were used properly.
+    very important light on code construction
 
 
 ## Websites related
