@@ -30,10 +30,11 @@
         return cached_value
     ```
 - **Oct. 31th 2024**
-  1. finish lab04 where i learnt:
+  1. finish [lab04](./lab/lab04/lab04.py) where i learnt:
     > The nature of the abstraction barrier guarantees that changing the implementation of an data abstraction shouldn't affect the functionality of any programs that use that data abstraction, as long as the constructors and selectors were used properly.
     very important light on code construction
-
+  2. finish [hw04](./hw/hw04/hw04.py) exciting and felt benefited a lot from previous oi experience 😋
+      this really is a nice course, and i plan to read the implementation of tree in python in this source code given
 
 ## Websites related
 - https://composingprograms.netlify.app/
