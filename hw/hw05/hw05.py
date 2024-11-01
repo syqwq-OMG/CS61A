@@ -10,6 +10,13 @@ def hailstone(n):
     1
     """
     "*** YOUR CODE HERE ***"
+    yield n
+    if n == 1:
+        yield from hailstone(1)
+    if n % 2 == 0:
+        yield from hailstone(n // 2)
+    else:
+        yield from hailstone(n * 3 + 1)
 
 
 def merge(a, b):
@@ -27,14 +34,36 @@ def merge(a, b):
     >>> [next(result) for _ in range(10)]
     [2, 3, 5, 7, 8, 9, 11, 13, 14, 15]
     """
+    # a_val, b_val = next(a), next(b)
+    # while True:
+    #     if a_val == b_val:
+    #         yield a_val
+    #         a_val, b_val = next(a), next(b)
+    #     elif a_val < b_val:
+    #         yield a_val
+    #         a_val = next(a)
+    #     else:
+    #         yield b_val
+    #         b_val = next(b)
     a_val, b_val = next(a), next(b)
     while True:
         if a_val == b_val:
-            "*** YOUR CODE HERE ***"
+            yield a_val
+            a_val, b_val = next(a), next(b)
         elif a_val < b_val:
-            "*** YOUR CODE HERE ***"
+            yield a_val
+            while a_val < b_val:
+                a_val = next(a)
+                if a_val >= b_val:
+                    break
+                yield a_val
         else:
-            "*** YOUR CODE HERE ***"
+            yield b_val
+            while a_val > b_val:
+                b_val = next(b)
+                if a_val <= b_val:
+                    break
+                yield b_val
 
 
 def stair_ways(n):
@@ -50,7 +79,14 @@ def stair_ways(n):
     >>> list(s_w) # Ensure you're not yielding extra
     []
     """
-    "*** YOUR CODE HERE ***"
+    if n <= 0:
+        yield []
+    if n >= 1:
+        for way in stair_ways(n - 1):
+            yield [1] + way
+    if n >= 2:
+        for way in stair_ways(n - 2):
+            yield [2] + way
 
 
 def yield_paths(t, value):
@@ -89,28 +125,32 @@ def yield_paths(t, value):
     [[0, 2], [0, 2, 1, 2]]
     """
     if label(t) == value:
-        yield ____
+        yield [value]
     for b in branches(t):
-        for ____ in ____:
-            yield ____
-
+        for p in yield_paths(b, value):
+            # yield [label(b)] + p  # yield(b,value) -> [[b,...],[b,...],[b,...]]
+            yield [label(t)] + p
 
 
 # Tree Data Abstraction
 
+
 def tree(label, branches=[]):
     """Construct a tree with the given label value and a list of branches."""
     for branch in branches:
-        assert is_tree(branch), 'branches must be trees'
+        assert is_tree(branch), "branches must be trees"
     return [label] + list(branches)
+
 
 def label(tree):
     """Return the label value of a tree."""
     return tree[0]
 
+
 def branches(tree):
     """Return the list of branches of the given tree."""
     return tree[1:]
+
 
 def is_tree(tree):
     """Returns True if the given tree is a tree, and False otherwise."""
@@ -121,11 +161,13 @@ def is_tree(tree):
             return False
     return True
 
+
 def is_leaf(tree):
     """Returns True if the given tree's list of branches is empty, and False
     otherwise.
     """
     return not branches(tree)
+
 
 def print_tree(t, indent=0):
     """Print a representation of this tree in which each node is
@@ -146,9 +188,10 @@ def print_tree(t, indent=0):
       6
         7
     """
-    print('  ' * indent + str(label(t)))
+    print("  " * indent + str(label(t)))
     for b in branches(t):
         print_tree(b, indent + 1)
+
 
 def copy_tree(t):
     """Returns a copy of t. Only for testing purposes.
@@ -160,4 +203,3 @@ def copy_tree(t):
     5
     """
     return tree(label(t), [copy_tree(b) for b in branches(t)])
-
