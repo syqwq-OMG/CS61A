@@ -48,6 +48,7 @@
    
 - **Nov. 1st 2024**
   1. finish [hw05](./hw/hw05/hw05.py) understand **generator function**!!! it can retue a sequence of value, and if you use it u have to understand that u can use `for` loop to iterate all its `yield` outputs! and when construct a generator function, u have to make clear knowledge of what it return is a sub-problem of the entire problem, what u need to consider is just every single element that emerges each time.
+  2. do problem 1-3 of project [*ants*](./project/ants/ants.py)
 
 
 
