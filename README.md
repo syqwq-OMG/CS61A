@@ -47,7 +47,7 @@
   3. finish [lab05](./lab/lab05/lab05.py) tree abstraction code [here](./lab/lab05/tree.py)
    
 - **Nov. 1st 2024**
-  1. finish [hw05](./hw/hw05/hw05.py) understand **generator function**!!! it can retue a sequence of value, and if you use it u have to understand that u can use `for` loop to iterate all its `yield` outputs! and when construct a generator function, u have to make clear knowledge of what it return is a sub-problem of the entire problem, what u need to consider is just every single element that emerges each time.
+  1. finish [hw05](./hw/hw05/hw05.py) understand **generator function**!!! it can return a sequence of value, and if wants to have ood use of it, we have to understand that what it yields is a generator thus we can use `for` loop to iterate all its `yield` outputs! and (from the point of constructing a generator function, ) when constructing a generator function, we have to make clear knowledge of what it return is a sub-problem of the entire problem, what we need to consider is just every single new element that yields out each time.
   2. do problem 1-3 of project [*ants*](./project/ants/ants.py)
 
 - **Nov. 4th 2024**
