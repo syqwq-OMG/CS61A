@@ -1,27 +1,28 @@
 # CS61A: Structure and Interpretation of Computer Programs
-## Index
-CS61A
-  ├── hw
-  │   ├── [hw01](./hw/hw01/hw01.py)
-  │   ├── [hw02](./hw/hw02/hw02.py)
-  │   ├── [hw03](./hw/hw03/hw03.py)
-  │   ├── [hw04](./hw/hw04/hw04.py)
-  │   ├── [hw05](./hw/hw05/hw05.py)
-  │   └── [hw06](./hw/hw06/hw06.py)
-  ├── lab
-  │   ├── [lab00](./lab/lab00/lab00.py)
-  │   ├── [lab01](./lab/lab01/lab01.py)
-  │   ├── [lab02](./lab/lab02/lab02.py)
-  │   ├── [lab03](./lab/lab03/lab03.py)
-  │   ├── [lab04](./lab/lab04/lab04.py)
-  │   ├── [lab05](./lab/lab05/lab05.py)
-  │   └── [lab06](./lab/lab06/lab06.py)
-  └── project
-      ├── [ants](./project/ants/ants.py)
-      ├── [cats](./project/cats/cats.py)
-      └── [hog](./project/cats/cats.py)
+## 0x01 Index
+### Labs
+- [lab00](./lab/lab00/lab00.py)
+- [lab01](./lab/lab01/lab01.py)
+- [lab02](./lab/lab02/lab02.py)
+- [lab03](./lab/lab03/lab03.py)
+- [lab04](./lab/lab04/lab04.py)
+- [lab05](./lab/lab05/lab05.py)
+- [lab06](./lab/lab06/lab06.py)
 
-## Timeline
+### Homework
+- [hw01](./hw/hw01/hw01.py)
+- [hw02](./hw/hw02/hw02.py)
+- [hw03](./hw/hw03/hw03.py)
+- [hw04](./hw/hw04/hw04.py)
+- [hw05](./hw/hw05/hw05.py)
+- [hw06](./hw/hw06/hw06.py)
+
+### Projects
+- [Ants](./project/ants/ants.py)
+- [Cats](./project/cats/cats.py)
+- [Hog](./project/hog/hog.py)
+
+## 0x02 Timeline
 - **Oct. 12th 2024**
   1. config envs e.g. py.ok account, etc.
   2. finish [lab00](./lab/lab00/lab00.py)
@@ -82,7 +83,7 @@ CS61A
   2. finish ECs of [ants](./project/ants/ants.py)!!!!!! yeahhhhhhhhh!
 
 
-## Websites related
+## 0x03 References
 - https://composingprograms.netlify.app/
 - https://www.bilibili.com/video/BV1sy411z7nA
 - https://cs61a.org/
