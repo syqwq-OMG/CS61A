@@ -29,7 +29,7 @@
   > BTW, use `python3 score.py > correction.txt &` to check performance of `final_diff` in the [cats.py](./project/cats/cats.py)
   1. [*cats*](./project/cats/cats.py) project finish all problems 🥺🥺🥺🥺🥺
   2. **[TODO]** maybe modify the `final_diff` function
-  3. **[TODO]** figure out why
+  3. **[DONE]** figure out why
     > If memoized encounters the (typed, source) pair again, it should return the memoized value if the provided limit is less than or equal to the cached limit. Otherwise, the difference should be recalculated, recached, and returned.
 
     understand `memo_diff()` why is
@@ -37,6 +37,8 @@
     if limit <= cached_limit:
         return cached_value
     ```
+    **Re:** this memo is used to cache whether the case is over limit, and will return *inf* if the cached 
+    limit show there's no possibility that it's able to match these two strings
    
 - **Oct. 31th 2024**
   1. finish [lab04](./lab/lab04/lab04.py) where i learnt:
@@ -47,11 +49,15 @@
   3. finish [lab05](./lab/lab05/lab05.py) tree abstraction code [here](./lab/lab05/tree.py)
    
 - **Nov. 1st 2024**
-  1. finish [hw05](./hw/hw05/hw05.py) understand **generator function**!!! it can return a sequence of value, and if wants to have ood use of it, we have to understand that what it yields is a generator thus we can use `for` loop to iterate all its `yield` outputs! and (from the point of constructing a generator function, ) when constructing a generator function, we have to make clear knowledge of what it return is a sub-problem of the entire problem, what we need to consider is just every single new element that yields out each time.
+  1. finish [hw05](./hw/hw05/hw05.py) understand **generator function**!!! it can return a sequence of value, and if wants to have a good use of it, we have to understand that what it yields is a generator thus we can use `for` loop to iterate all its `yield` outputs! and (from the point of constructing a generator function, ) when constructing a generator function, we have to make clear knowledge of what it return is a sub-problem of the entire problem, what we need to consider is just every single new element that yields out each time.
   2. do problem 1-3 of project [*ants*](./project/ants/ants.py)
 
 - **Nov. 4th 2024**
   1. finish [lab06](./lab/lab06/lab06.py) tiny introduce to OOP
+
+- **Nov. 8th 2024**
+  1. finish basic part of [ants](./project/ants/ants.py) ✌️✌️✌️✌️✌️
+  2. finish ECs of [ants](./project/ants/ants.py)!!!!!! yeahhhhhhhhh!
 
 
 ## Websites related
