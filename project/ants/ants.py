@@ -533,7 +533,7 @@ class SlowThrower(ThrowerAnt):
         """
         bee: a bee instance
         """
-        return (bee not in SlowThrower.bees_slow) or SlowThrower.bees_slow[bee][0] > 0
+        return (bee in SlowThrower.bees_slow) and SlowThrower.bees_slow[bee][0] > 0
 
     def throw_at(self, target):
 
