@@ -1,26 +1,14 @@
 # CS61A: Structure and Interpretation of Computer Programs
 ## 0x01 Index
-### Labs
-- [lab00](./lab/lab00/lab00.py)
-- [lab01](./lab/lab01/lab01.py)
-- [lab02](./lab/lab02/lab02.py)
-- [lab03](./lab/lab03/lab03.py)
-- [lab04](./lab/lab04/lab04.py)
-- [lab05](./lab/lab05/lab05.py)
-- [lab06](./lab/lab06/lab06.py)
-
-### Homework
-- [hw01](./hw/hw01/hw01.py)
-- [hw02](./hw/hw02/hw02.py)
-- [hw03](./hw/hw03/hw03.py)
-- [hw04](./hw/hw04/hw04.py)
-- [hw05](./hw/hw05/hw05.py)
-- [hw06](./hw/hw06/hw06.py)
-
-### Projects
-- [Ants](./project/ants/ants.py)
-- [Cats](./project/cats/cats.py)
-- [Hog](./project/hog/hog.py)
+| **Lab**                       | **Homework**              | **Project**                    |
+| ----------------------------- | ------------------------- | ------------------------------ |
+| [lab00](./lab/lab00/lab00.py) | [hw01](./hw/hw01/hw01.py) | [ants](./project/ants/ants.py) |
+| [lab01](./lab/lab01/lab01.py) | [hw02](./hw/hw02/hw02.py) | [cats](./project/cats/cats.py) |
+| [lab02](./lab/lab02/lab02.py) | [hw03](./hw/hw03/hw03.py) | [hog](./project/hog/hog.py)    |
+| [lab03](./lab/lab03/lab03.py) | [hw04](./hw/hw04/hw04.py) |                                |
+| [lab04](./lab/lab04/lab04.py) | [hw05](./hw/hw05/hw05.py) |                                |
+| [lab05](./lab/lab05/lab05.py) | [hw06](./hw/hw06/hw06.py) |                                |
+| [lab06](./lab/lab06/lab06.py) |                           |                                |
 
 ## 0x02 Timeline
 - **Oct. 12th 2024**
