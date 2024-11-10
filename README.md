@@ -2,9 +2,9 @@
 ## 0x01 Index
 | **Lab**                       | **Homework**              | **Project**                    |
 | ----------------------------- | ------------------------- | ------------------------------ |
-| [lab00](./lab/lab00/lab00.py) | [hw01](./hw/hw01/hw01.py) | [ants](./project/ants/ants.py) |
+| [lab00](./lab/lab00/lab00.py) | [hw01](./hw/hw01/hw01.py) | [hog](./project/hog/hog.py)    |
 | [lab01](./lab/lab01/lab01.py) | [hw02](./hw/hw02/hw02.py) | [cats](./project/cats/cats.py) |
-| [lab02](./lab/lab02/lab02.py) | [hw03](./hw/hw03/hw03.py) | [hog](./project/hog/hog.py)    |
+| [lab02](./lab/lab02/lab02.py) | [hw03](./hw/hw03/hw03.py) | [ants](./project/ants/ants.py) |
 | [lab03](./lab/lab03/lab03.py) | [hw04](./hw/hw04/hw04.py) |                                |
 | [lab04](./lab/lab04/lab04.py) | [hw05](./hw/hw05/hw05.py) |                                |
 | [lab05](./lab/lab05/lab05.py) | [hw06](./hw/hw06/hw06.py) |                                |
@@ -70,6 +70,8 @@
   1. finish basic part of [ants](./project/ants/ants.py) ✌️✌️✌️✌️✌️
   2. finish ECs of [ants](./project/ants/ants.py)!!!!!! yeahhhhhhhhh!
 
+- **Nov. 10th 2024**
+  1. finish [hw06](./hw/hw06/hw06.py)
 
 ## 0x03 References
 - https://composingprograms.netlify.app/
