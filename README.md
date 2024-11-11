@@ -9,6 +9,7 @@
 | [lab04](./lab/lab04/lab04.py) | [hw05](./hw/hw05/hw05.py) |                                |
 | [lab05](./lab/lab05/lab05.py) | [hw06](./hw/hw06/hw06.py) |                                |
 | [lab06](./lab/lab06/lab06.py) |                           |                                |
+| [lab07](./lab/lab07/lab07.py) |                           |                                |
 
 ## 0x02 Timeline
 - **Oct. 12th 2024**
@@ -72,6 +73,9 @@
 
 - **Nov. 10th 2024**
   1. finish [hw06](./hw/hw06/hw06.py)
+  
+- **Nov. 11th 2024**
+  1. finish [lab07](./lab/lab07/lab07.py)
 
 ## 0x03 References
 - https://composingprograms.netlify.app/
