@@ -10,6 +10,7 @@
 | [lab05](./lab/lab05/lab05.py) | [hw06](./hw/hw06/hw06.py) |                                |
 | [lab06](./lab/lab06/lab06.py) |                           |                                |
 | [lab07](./lab/lab07/lab07.py) |                           |                                |
+| [lab08](./lab/lab08/lab08.py) |                           |                                |
 
 ## 0x02 Timeline
 - **Oct. 12th 2024**
@@ -76,6 +77,8 @@
   
 - **Nov. 11th 2024**
   1. finish [lab07](./lab/lab07/lab07.py)
+  2. finish [lab08](./lab/lab08/lab08.py)
+  3. ohhhhhh! head for SCHEME lang 😋
 
 ## 0x03 References
 - https://composingprograms.netlify.app/
