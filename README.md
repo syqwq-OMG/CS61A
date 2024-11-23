@@ -9,7 +9,7 @@
 | [lab04](./lab/lab04/lab04.py)  | [hw05](./hw/hw05/hw05.py)  |                                |
 | [lab05](./lab/lab05/lab05.py)  | [hw06](./hw/hw06/hw06.py)  |                                |
 | [lab06](./lab/lab06/lab06.py)  | [hw07](./hw/hw07/hw07.scm) |                                |
-| [lab07](./lab/lab07/lab07.py)  |                            |                                |
+| [lab07](./lab/lab07/lab07.py)  | [hw08](./hw/hw08/hw08.scm) |                                |
 | [lab08](./lab/lab08/lab08.py)  |                            |                                |
 | [lab09](./lab/lab09/lab09.scm) |                            |                                |
 
@@ -82,11 +82,18 @@
   3. ohhhhhh! head for SCHEME lang 😋
 
 - **Nov. 12th 2024**
-  1. finish [lab09](./lab/lab09/lab09.scm)
+  1. finish [lab09](./lab/lab09/lab09.scm), begin SCHEME 😋
+
+- **Nov. 23th 2024**
+  1. finish [hw07](./hw/hw07/hw07.scm)
+  2. finish [hw08](./hw/hw08/hw08.scm), for the `no-repeat` function,
+    > Since Scheme does not have a built-in containment predicate analog to Python's in keyword and we cannot access the element ahead of the current index in a list of Scheme, <br>
+    > We realize that we can instead remove all **repeats** of an element while iterating through our list. The idea is that as we iterate through an element of the list, we simultaneously remove all other instances of that element from the rest of the list. This ensures that there is only one instance of that element in the list. We achieve this by applying a filter onto the rest of the list.
 
 ## 0x03 References
-- https://composingprograms.netlify.app/
-- https://www.bilibili.com/video/BV1sy411z7nA
 - https://cs61a.org/
+- https://composingprograms.netlify.app/
 - https://www.composingprograms.com/
+- https://www.composingprograms.com/examples/scalc/scalc.html
+- https://www.bilibili.com/video/BV1sy411z7nA
 
