@@ -12,6 +12,7 @@
 | [lab07](./lab/lab07/lab07.py)  | [hw08](./hw/hw08/hw08.scm) |                                |
 | [lab08](./lab/lab08/lab08.py)  |                            |                                |
 | [lab09](./lab/lab09/lab09.scm) |                            |                                |
+| [lab10](./lab/lab10/lab10.py)  |                            |                                |
 
 ## 0x02 Timeline
 - **Oct. 12th 2024**
@@ -89,6 +90,10 @@
   2. finish [hw08](./hw/hw08/hw08.scm), for the `no-repeat` function,
     > Since Scheme does not have a built-in containment predicate analog to Python's in keyword and we cannot access the element ahead of the current index in a list of Scheme, <br>
     > We realize that we can instead remove all **repeats** of an element while iterating through our list. The idea is that as we iterate through an element of the list, we simultaneously remove all other instances of that element from the rest of the list. This ensures that there is only one instance of that element in the list. We achieve this by applying a filter onto the rest of the list.
+
+- **Dec. 12th 2024**
+  1. finish [lab10](./lab/lab10/lab10.py) but the references mostly use `while` loop, i mostly use recurrsive function QwQ
+   
 
 ## 0x03 References
 - https://cs61a.org/
