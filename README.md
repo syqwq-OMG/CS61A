@@ -1,18 +1,18 @@
 # CS61A: Structure and Interpretation of Computer Programs
 ## 0x01 Index
-| **Lab**                        | **Homework**               | **Project**                    |
-| ------------------------------ | -------------------------- | ------------------------------ |
-| [lab00](./lab/lab00/lab00.py)  | [hw01](./hw/hw01/hw01.py)  | [hog](./project/hog/hog.py)    |
-| [lab01](./lab/lab01/lab01.py)  | [hw02](./hw/hw02/hw02.py)  | [cats](./project/cats/cats.py) |
-| [lab02](./lab/lab02/lab02.py)  | [hw03](./hw/hw03/hw03.py)  | [ants](./project/ants/ants.py) |
-| [lab03](./lab/lab03/lab03.py)  | [hw04](./hw/hw04/hw04.py)  |                                |
-| [lab04](./lab/lab04/lab04.py)  | [hw05](./hw/hw05/hw05.py)  |                                |
-| [lab05](./lab/lab05/lab05.py)  | [hw06](./hw/hw06/hw06.py)  |                                |
-| [lab06](./lab/lab06/lab06.py)  | [hw07](./hw/hw07/hw07.scm) |                                |
-| [lab07](./lab/lab07/lab07.py)  | [hw08](./hw/hw08/hw08.scm) |                                |
-| [lab08](./lab/lab08/lab08.py)  |                            |                                |
-| [lab09](./lab/lab09/lab09.scm) |                            |                                |
-| [lab10](./lab/lab10/lab10.py)  |                            |                                |
+| **Lab**                        | **Homework**               | **Project**                          |
+| ------------------------------ | -------------------------- | ------------------------------------ |
+| [lab00](./lab/lab00/lab00.py)  | [hw01](./hw/hw01/hw01.py)  | [hog](./project/hog/hog.py)          |
+| [lab01](./lab/lab01/lab01.py)  | [hw02](./hw/hw02/hw02.py)  | [cats](./project/cats/cats.py)       |
+| [lab02](./lab/lab02/lab02.py)  | [hw03](./hw/hw03/hw03.py)  | [ants](./project/ants/ants.py)       |
+| [lab03](./lab/lab03/lab03.py)  | [hw04](./hw/hw04/hw04.py)  | [scheme](./project/scheme/scheme.py) |
+| [lab04](./lab/lab04/lab04.py)  | [hw05](./hw/hw05/hw05.py)  |                                      |
+| [lab05](./lab/lab05/lab05.py)  | [hw06](./hw/hw06/hw06.py)  |                                      |
+| [lab06](./lab/lab06/lab06.py)  | [hw07](./hw/hw07/hw07.scm) |                                      |
+| [lab07](./lab/lab07/lab07.py)  | [hw08](./hw/hw08/hw08.scm) |                                      |
+| [lab08](./lab/lab08/lab08.py)  |                            |                                      |
+| [lab09](./lab/lab09/lab09.scm) |                            |                                      |
+| [lab10](./lab/lab10/lab10.py)  |                            |                                      |
 
 ## 0x02 Timeline
 - **Oct. 12th 2024**
@@ -94,6 +94,9 @@
 - **Dec. 12th 2024**
   1. finish [lab10](./lab/lab10/lab10.py) but the references mostly use `while` loop, i mostly use recurrsive function QwQ
    
+- **Dec. 22th 2024**
+  1. finish [scheme](./project/scheme/scheme.py) finalllllly!!!! yeahhh but not included the extra part. 😢😢😢😢😢
+
 
 ## 0x03 References
 - https://cs61a.org/
